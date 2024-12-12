@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgba(37,47,86,.8), rgb(24, 10, 100));
+}
+
+.cajauno {
+    height: 70px;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.cajados {
+    border: 0cap;
+}
+.cajatres nav ul li a {
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.cajatres ul {
+    display: flex;
+    list-style: none;
+}
+.cajatres nav ul li a {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 80px;
+    padding: 10px;
+    transition: .5s;
+    
+}
+.cajatres nav ul li a:hover{
+   color: rgb(127, 96, 185);
+}
+.cajacuatro {
+    background-color: rgb(205, 184, 243);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    padding: 8px;
+    width: 30px;
+    margin:50px;
+}
+
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100px;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 600%;
+}
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.cajaseis {
+   
+    height: 20px;
+    padding: 50px;
+    width: 80px;
+    margin:30px
+}
+.cajaseis img {
+    margin: 10px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 01px;
+    margin-right: 90px;
+}
+.cajasiete {
+    height: 50vh;
+    width: 22%;
+    margin:20px;
+    border-radius: 40px;
+}
+.cajasiete img{
+    margin-top: 10px;
+    margin-right: 100px;
+    border: 05px solid white;
+    border-radius: 40px;
+    display: block;
+    width: 130%;
+    margin: auto;
+}
+.cajasiete p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:40px;
+    font-size: 25px;
+    font-style: normal;
+}
+.cajaocho {
+    
+    height: 05vh;
+    padding: 15px;
+    width: 60px;
+    margin:50px
+}
+.cajaocho p {
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    margin: 50px;
+    margin-top: 01px;
+    margin-right: 80px;
+}
+.cajanueve p {
+    text-align: center;
+    margin: 70px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:40px;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.contenido-section{
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    margin: auto;
+    max-width: 1600px;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:40px;
+    font-size: 25px;
+    font-style: normal;
+}
+.contenido-section h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.contenido-section p{
+    font: 18px;
+    line-height: 22px;
+    max-width: 1600px;
+    margin-bottom: 20px;
+}
+.contenido-section p span {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.fila {
+    text-align: center;
+    color: white;
+    padding: 50px 10px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:40px;
+    font-size: 20px;
+    font-style: normal;
+   
+}
+.fila{
+    text-align: center;
+    max-width: 1600px;
+    width: 100%;
+}
+.fila .fila h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.fila .fila{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:40px;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.fila ul li strong {
+    text-align: center;
+    display: inline-block;
+    color: rgb(21, 3, 54);
+    width: 130px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.fila ul li span {
+    background-color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.col h3  {
+    color: rgb(255, 255, 255);
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+.contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-intereses .interes {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(5, 10, 78);
+    border-radius: 10px;
+    margin:  0 25px 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 3s;
+    text-align: center;
+}
+.interes:hover{
+    background-color: white;
+}
+.interes i:hover{
+    background-color: rgb(12, 4, 82);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.portafolio {
+    background: linear-gradient(to top, rgba(37,47,86,.8), rgb(24, 10, 100));
+    color: white;
+    padding: 50px 20px;
+}
+.portafolio .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+.portafolio h2 {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding: 20px;
+}
+.portafolio .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portafolio .galeria .proyecto {
+    position: relative;
+    width: 640px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.portafolio .galeria .proyecto .overlay{
+    position: absolute;
+    top: 0;
+    width: 118%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(to top, rgba(65, 82, 150, 0.8), rgb(51, 43, 97));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+.portafolio .galeria .proyecto .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.portafolio .galeria .proyecto .overlay:hover{
+    opacity: 1;
+}
+.portafolio .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 0px;
+}
+.contacto {
+    color: white;
+    padding: 50px 0px;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding: 20px;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgb(5, 10, 78);
+    color: white;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background: linear-gradient(to top, rgba(65, 82, 150, 0.8), rgb(51, 43, 97));
+    border: 2px solid white;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    width: 100%;
+    height: 87%;
+}
+.contacto .col .info ul{
+    list-style: none;
+}
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+}
+.contacto .col .info ul li i{
+    color:white;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+footer{
+    background-color: rgb(5, 10, 78);
+    color: white;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: brown;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.foto{
+    margin-top: 50px;
+    margin-right: 100px;
+    border: 10px solid white;
+    border-radius: 40px;
+    display: block;
+    width: 41%;
+    margin: auto;
+}
+
+
+    
+
+
