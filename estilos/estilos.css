@@ -438,8 +438,11 @@ footer .redes a{
     width: 41%;
     margin: auto;
 }
-
-
-    
-
-
+.cajablog{
+    background-color: rgb(252, 249, 249);
+}
+.blog3{
+    width: 50%;
+    background-color: aqua;
+    height: 50%;
+}
